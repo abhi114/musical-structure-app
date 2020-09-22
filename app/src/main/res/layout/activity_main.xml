@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background">
+
+
+    <TextView
+        android:id="@+id/Romantic"
+        style="@style/CategoryStyle"
+        android:background="#FD8E09"
+        android:text="Romantic" />
+
+    <TextView
+        android:id="@+id/Party"
+        style="@style/CategoryStyle"
+        android:background="#379237"
+        android:text="Party" />
+
+    <TextView
+        android:id="@+id/Electronic"
+        style="@style/CategoryStyle"
+        android:background="#8800A0"
+        android:text="Electronic" />
+
+</LinearLayout>
